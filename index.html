@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.6.4/math.js"></script>
+	<link href="./css/style.css" rel="stylesheet">
+	
+	
+</head>
+
+<body>
+		<div class="centrFlex">
+				<form class="calc" >
+					<div class="displ">	
+						<input type="text" name="dispOne" value="" readonly class="topEnterLine displ">
+						<input type="text" name="dispTwo" value="" readonly class="enterLine displ">
+					</div>
+					<div class="btnSiz" id="btnClick">
+					<div class="btnPos operationButton">	
+						<div class="btn" id="%">%</div>
+						<div class="btn" id="escape">CE</div>
+						<div class="btn" id="cls">C</div>
+						<div class="btn" id="backspace">&#9668;</div>
+						
+					</div>
+					<div class="btnPos operationButton">	
+						<div class="btn" id="xto">x/1</div>
+						<div class="btn" id="pow">x<sup class="sups">2</sup></div>
+						<div class="btn" id="sqrt">&radic;</div>
+						<div class="btn" id="/">&divide;</div>
+					</div>
+					<div class="btnPos">	
+						<div class="btn boldDigits" id="7">7</div>
+						<div class="btn boldDigits" id="8">8</div>
+						<div class="btn boldDigits" id="9">9</div>
+						<div class="btn operationButton" id="*">x</div>
+					</div>
+					<div class="btnPos">	
+						<div class="btn boldDigits" id="4">4</div>
+						<div class="btn boldDigits" id="5">5</div>
+						<div class="btn boldDigits" id="6">6</div>
+						<div class="btn operationButton" id="-">-</div>
+					</div>
+					<div class="btnPos">	
+						<div class="btn boldDigits" id="1">1</div>
+						<div class="btn boldDigits" id="2">2</div>
+						<div class="btn boldDigits" id="3">3</div>
+						<div class="btn operationButton" id="+">+</div>
+					</div>
+					<div class="btnPos">	
+						<div class="btn" id="pm">&plusmn;</div>
+						<div class="btn boldDigits" id="0">0</div>
+						<div class="btn" id=".">,</div>
+						<div class="btn isButton" id="=">=</div>
+					</div>
+				</div>
+					
+				</form>
+		</div>
+
+		<script src="./js/script.js"></script>
+</body>
+</html>

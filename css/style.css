@@ -1,0 +1,159 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 18px/18px Trebuchet MS, sans-serif;
+	background: rgb(12, 183, 250);
+
+}
+.wrapper {
+	width: 100%;
+	min-width: 1000px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.calc{
+ margin-top: 5%;
+ max-width: 323px;
+ max-height: 700px;
+ height: 502px;
+ background-color: rgb(255, 255, 255);
+ min-width: 230px;
+ min-height: 260px;
+ opacity: 0.9;
+ border: 1px solid black;
+
+}
+.displ{
+    display:flex;
+    flex-direction:column;
+    justify-content: end;
+	background-color: rgb(179, 222, 241);
+    height: 197px;
+}
+
+.topEnterLine{
+	margin-top: 13%;
+	border-style: none;
+	width: 93%;
+	font-size: 14px;
+    color: rgb(82, 79, 79);
+	text-align: right;
+	height: 10%;
+}
+.topEnterLine :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+    
+    
+}
+.enterLine{
+	width: 96%;
+	border-style: none;
+	font-size: 46px;
+	text-align: right;
+	height: 19%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+ 
+}
+.centrFlex{
+	
+	display: flex;
+	justify-content: center;
+}
+.btnPos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 12.8%;
+	
+}
+.sups{
+	vertical-align: super;
+	font-size: small;
+}
+.btn{
+	width: 25%;
+	text-align: center;
+    
+	padding: 1em 0;
+	border: 1px solid rgb(179, 222, 241);
+}
+.btnSiz{
+	width: 100%;
+	height: 79%;
+
+}
+.btn:hover{
+	background-color: rgb(200, 211, 224);
+    border: 1px solid rgb(15, 17, 19);
+    border-radius: 5px;
+     
+}
+.isButton:hover{
+    background-color: rgb(45, 131, 236);
+    border: 1px solid rgb(15, 17, 19);
+    border-radius: 5px;
+
+}
+.operationButton{
+    background-color: rgba(179, 222, 241, 0.575);
+
+}
+.isButton
+{
+    background-color: rgb(106, 191, 240);
+
+}
+.boldDigits{
+    font-weight: bolder;
+}
