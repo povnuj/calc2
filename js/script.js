@@ -177,8 +177,6 @@ mouseClick.forEach((el) => {
 
 
 
-
-
 /*
 document.addEventListener('keydown', event => {
     if ((event.key).match(/[0-9%\/*\-+\(\)=]|Backspace|Escape|Enter/)) CalcNow(event.key)
