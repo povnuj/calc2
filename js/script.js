@@ -5,6 +5,7 @@ class Calculator {
         this.res = res;
     }
 
+    
     mathOperation = {
         '+': (a, b) => a + b,
         '-': (a, b) => a - b,
@@ -172,8 +173,6 @@ mouseClick.forEach((el) => {
         }
     });
 });
-
-
 
 
 
